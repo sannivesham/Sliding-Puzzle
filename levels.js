@@ -1,5 +1,5 @@
-// Sliding Puzzle Level Configurations (12 Unique Story Images)
-const LEVELS = [
+// Sliding Puzzle Level Configurations attached globally for Module support
+window.LEVELS = [
   {
     id: 1,
     title: "శ్రీరామ జననం (Birth of Rama)",
@@ -86,6 +86,6 @@ const LEVELS = [
   }
 ];
 
-function getLevel(id) {
-  return LEVELS.find(l => l.id === Number(id));
-}
+window.getLevel = function(id) {
+  return window.LEVELS.find(l => l.id === Number(id));
+};
