@@ -65,7 +65,7 @@ window.LEVELS = [
   },
   {
     id: 10,
-    title: "సముద్ర లంఘనం (Hanuman Crossing Ocean)",
+    title: "సмуద్ర లంఘనం (Hanuman Crossing Ocean)",
     difficulty: "కఠినం (Hard)",
     gridSize: 4,
     image: "p10.png"
